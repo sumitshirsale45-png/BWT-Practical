@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p3.5</title>
+</head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+</style>
+<body>
+    <table size="1">
+        <tr>
+            <th rowspan="2">sate of health</th>
+            <th colspan="2">fasting value</th>
+            <th>After eating</th>
+            
+        </tr>
+        <tr>
+            
+            <td>minimum</td>
+            <td>minimum</td>
+            <td>two hour</td>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>70</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre diabtes</td>
+            <td>100</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>diabtes</td>
+            <td>more than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+
+    </table>
+</body>
+</html>
