@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+</style>
+<body>
+    <table size="1">
+        <tr bgcolor="cyan">
+            <th>sr.no</th>
+            <th>subject name</th>
+            <th>subject code</th>
+            <th>Downlod syllabus</th>
+            <th rowspan="7"><img src="ganpat logo.png"/></th>
+        </tr>
+        <tr bgcolor="pink">
+            <td>1</td>
+            <td>MATHS</td>
+            <td>2BS1101</td>
+            <td><a href="https://d2z4x7fn3a0wyp.cloudfront.net/subject/mathematics-i/2bs1101-mathematics-i.pdf">Math syllabus </a></td>
+        </tr>
+        <tr bgcolor="green">
+            <td>2</td>
+             <td>EG</td>
+            <td>2ES1101</td>
+            <td><a href="https://d2z4x7fn3a0wyp.cloudfront.net/subject/engineering-graphics/2es1101-engineering-grahpics-syllabus-semester-i.pdf">EG syllabus </a></td>
+        </tr>
+        <tr bgcolor="blue">
+            <td>3</td>
+             <td>BEE</td>
+            <td>2ES1103</td>
+            <td><a href="https://d2z4x7fn3a0wyp.cloudfront.net/subject/basic-electrical-engineering/2es1103-basic-electrical-engineering.pdf">BEE syllabus </a></td>
+        </tr>
+        <tr bgcolor="yellow">
+            <td>4</td>
+             <td>BWT</td>
+            <td>2BS1109</td>
+            <td><a href="https://d2z4x7fn3a0wyp.cloudfront.net/subject/basics-of-web-technology/2es1109-basics-of-web-technology.pdf">BWT syllabus </a></td>
+
+        </tr>
+        <tr bgcolor="red">
+            <td>5</td>
+             <td>ITPT</td>
+            <td>2BS1110</td>
+            <td><a href="https://d2z4x7fn3a0wyp.cloudfront.net/subject/it-peripherals-tools/2es1110-it-peripherals-and-tools.pdf">ITPT syllabus </a></td>
+        </tr>
+        <tr bgcolor="brown">
+            <td>6</td>
+             <td>AI</td>
+            <td>2CEIT606</td>
+            <td><a href="https://d2z4x7fn3a0wyp.cloudfront.net/subject/artificial-intelligence/4-2ceit606-artificial-intelligence.pdf">AI syllabus </a></td>
+        </tr>
+
+    </table>
+</body>
+</html>
